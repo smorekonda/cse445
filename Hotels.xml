@@ -23,7 +23,7 @@
       <Zip>85020</Zip>
     </Address>
   </Hotel>
-  <Hotel>
+  <Hotel Rating="4.0">
     <Name>Marriott Tucson</Name>
     <Phone>520-791-8111</Phone>
     <Address>
@@ -49,7 +49,7 @@
   <Hotel>
     <Name>Sheraton Grand Phoenix</Name>
     <Phone>602-262-2500</Phone>
-    <Address>
+    <Address NearestAirport="Phoenix Sky Harbor">
       <Number>340</Number>
       <Street>N 3rd St</Street>
       <City>Phoenix</City>
