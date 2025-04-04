@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels>
+  <!-- Hotel 1: Westin (from Figure 1) -->
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -12,8 +13,9 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
+  <!-- Hotel 2 -->
   <Hotel Rating="4.5">
-    <Name>Hilton Phoenix Resort</Name>
+    <Name>Hilton Phoenix Resort at the Peak</Name>
     <Phone>602-997-2626</Phone>
     <Address NearestAirport="Phoenix Sky Harbor">
       <Number>7677</Number>
@@ -23,8 +25,9 @@
       <Zip>85020</Zip>
     </Address>
   </Hotel>
+  <!-- Hotel 3 -->
   <Hotel>
-    <Name>Marriott Tucson</Name>
+    <Name>Marriott Tucson University Park</Name>
     <Phone>520-791-8111</Phone>
     <Address>
       <Number>880</Number>
@@ -34,8 +37,9 @@
       <Zip>85719</Zip>
     </Address>
   </Hotel>
+  <!-- Hotel 4 -->
   <Hotel Rating="4.0">
-    <Name>Hyatt Regency Scottsdale</Name>
+    <Name>Hyatt Regency Scottsdale Resort</Name>
     <Phone>480-444-1234</Phone>
     <Phone>800-554-9288</Phone>
     <Address NearestAirport="Scottsdale">
@@ -46,6 +50,7 @@
       <Zip>85258</Zip>
     </Address>
   </Hotel>
+  <!-- Hotel 5 -->
   <Hotel>
     <Name>Sheraton Grand Phoenix</Name>
     <Phone>602-262-2500</Phone>
@@ -57,8 +62,9 @@
       <Zip>85004</Zip>
     </Address>
   </Hotel>
+  <!-- Hotel 6 -->
   <Hotel Rating="3.8">
-    <Name>DoubleTree by Hilton Tucson</Name>
+    <Name>DoubleTree by Hilton Tucson Reid Park</Name>
     <Phone>520-881-4200</Phone>
     <Address>
       <Number>445</Number>
@@ -68,8 +74,9 @@
       <Zip>85711</Zip>
     </Address>
   </Hotel>
+  <!-- Hotel 7 -->
   <Hotel>
-    <Name>Ritz-Carlton Dove Mountain</Name>
+    <Name>The Ritz-Carlton Dove Mountain</Name>
     <Phone>520-572-3000</Phone>
     <Address NearestAirport="Tucson International">
       <Number>15000</Number>
@@ -79,6 +86,7 @@
       <Zip>85658</Zip>
     </Address>
   </Hotel>
+  <!-- Hotel 8 -->
   <Hotel Rating="4.3">
     <Name>Fairmont Scottsdale Princess</Name>
     <Phone>480-585-4848</Phone>
@@ -91,8 +99,9 @@
       <Zip>85255</Zip>
     </Address>
   </Hotel>
+  <!-- Hotel 9 -->
   <Hotel>
-    <Name>Embassy Suites Phoenix</Name>
+    <Name>Embassy Suites by Hilton Phoenix Airport</Name>
     <Phone>602-957-1910</Phone>
     <Address>
       <Number>1515</Number>
@@ -102,8 +111,9 @@
       <Zip>85008</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.1">
-    <Name>Loews Ventana Canyon</Name>
+  <!-- Hotel 10 -->
+  <Hotel>
+    <Name>Loews Ventana Canyon Resort</Name>
     <Phone>520-299-2020</Phone>
     <Address NearestAirport="Tucson International">
       <Number>7000</Number>
@@ -113,8 +123,9 @@
       <Zip>85750</Zip>
     </Address>
   </Hotel>
+  <!-- Hotel 11 -->
   <Hotel>
-    <Name>Hampton Inn Mesa</Name>
+    <Name>Hampton Inn Phoenix Mesa</Name>
     <Phone>480-654-4000</Phone>
     <Address>
       <Number>1563</Number>
@@ -122,17 +133,6 @@
       <City>Mesa</City>
       <State>AZ</State>
       <Zip>85206</Zip>
-    </Address>
-  </Hotel>
-  <Hotel>
-    <Name>Residence Inn Phoenix</Name>
-    <Phone>602-265-3232</Phone>
-    <Address>
-      <Number>8242</Number>
-      <Street>N Black Canyon Hwy</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85051</Zip>
     </Address>
   </Hotel>
 </Hotels>

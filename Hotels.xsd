@@ -52,7 +52,6 @@
                       <xs:simpleType>
                         <xs:restriction base="xs:string">
                           <xs:enumeration value="AZ"/>
-                          <xs:length value="2"/>
                         </xs:restriction>
                       </xs:simpleType>
                     </xs:element>
@@ -64,7 +63,7 @@
                       </xs:simpleType>
                     </xs:element>
                   </xs:sequence>
-                  <xs:attribute name="NearestAirport">
+                  <xs:attribute name="NearestAirport" use="optional">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:enumeration value="Sky Harbor"/>
