@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotel> <!-- Error 1: Root element is Hotel instead of Hotels -->
+  <Hotel Rating="4.2">
+    <!-- Error 2: Missing required element Name -->
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.5">
+    <Name>Hilton Phoenix Resort</Name>
+    <!-- Error 3: Phone element missing -->
+    <Address NearestAirport="Phoenix Sky Harbor">
+      <Number>7677</Number>
+      <Street>N 16th St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85020</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Marriott Tucson</Name>
+    <Name>Marriott Duplicate</Name> <!-- Error 5: Two Name elements -->
+    <Phone>520-791-8111</Phone>
+    <Address> <!-- Error 4: No closing tag for Address -->
+      <Number>880</Number>
+      <Street>E 2nd St</Street>
+      <City>Tucson</City>
+      <State>AZ</State>
+      <Zip>85719</Zip>
+  </Hotel>
+</Hotel>

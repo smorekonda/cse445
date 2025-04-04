@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotels>
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.5">
+    <Name>Hilton Phoenix Resort</Name>
+    <Phone>602-997-2626</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor">
+      <Number>7677</Number>
+      <Street>N 16th St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85020</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Marriott Tucson</Name>
+    <Phone>520-791-8111</Phone>
+    <Address>
+      <Number>880</Number>
+      <Street>E 2nd St</Street>
+      <City>Tucson</City>
+      <State>AZ</State>
+      <Zip>85719</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.0">
+    <Name>Hyatt Regency Scottsdale</Name>
+    <Phone>480-444-1234</Phone>
+    <Phone>800-554-9288</Phone>
+    <Address NearestAirport="Scottsdale">
+      <Number>7500</Number>
+      <Street>E Doubletree Ranch Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85258</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Sheraton Grand Phoenix</Name>
+    <Phone>602-262-2500</Phone>
+    <Address>
+      <Number>340</Number>
+      <Street>N 3rd St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="3.8">
+    <Name>DoubleTree by Hilton Tucson</Name>
+    <Phone>520-881-4200</Phone>
+    <Address>
+      <Number>445</Number>
+      <Street>S Alvernon Way</Street>
+      <City>Tucson</City>
+      <State>AZ</State>
+      <Zip>85711</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Ritz-Carlton Dove Mountain</Name>
+    <Phone>520-572-3000</Phone>
+    <Address NearestAirport="Tucson International">
+      <Number>15000</Number>
+      <Street>N Secret Springs Dr</Street>
+      <City>Marana</City>
+      <State>AZ</State>
+      <Zip>85658</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.3">
+    <Name>Fairmont Scottsdale Princess</Name>
+    <Phone>480-585-4848</Phone>
+    <Phone>800-344-4758</Phone>
+    <Address>
+      <Number>7575</Number>
+      <Street>E Princess Dr</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85255</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Embassy Suites Phoenix</Name>
+    <Phone>602-957-1910</Phone>
+    <Address>
+      <Number>1515</Number>
+      <Street>N 44th St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85008</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.1">
+    <Name>Loews Ventana Canyon</Name>
+    <Phone>520-299-2020</Phone>
+    <Address NearestAirport="Tucson International">
+      <Number>7000</Number>
+      <Street>N Resort Dr</Street>
+      <City>Tucson</City>
+      <State>AZ</State>
+      <Zip>85750</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Hampton Inn Mesa</Name>
+    <Phone>480-654-4000</Phone>
+    <Address>
+      <Number>1563</Number>
+      <Street>S Power Rd</Street>
+      <City>Mesa</City>
+      <State>AZ</State>
+      <Zip>85206</Zip>
+    </Address>
+  </Hotel>
+</Hotels>
