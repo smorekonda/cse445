@@ -3,10 +3,17 @@
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="Hotel" maxOccurs="unbounded">
+        <xs:element name="Hotel" minOccurs="11" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="Name" type="xs:string"/>
+              <xs:element name="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:minLength value="1"/>
+                    <xs:maxLength value="100"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
               <xs:element name="Phone" minOccurs="1" maxOccurs="unbounded">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">
@@ -21,6 +28,7 @@
                       <xs:simpleType>
                         <xs:restriction base="xs:string">
                           <xs:minLength value="1"/>
+                          <xs:maxLength value="10"/>
                         </xs:restriction>
                       </xs:simpleType>
                     </xs:element>
@@ -28,14 +36,23 @@
                       <xs:simpleType>
                         <xs:restriction base="xs:string">
                           <xs:minLength value="1"/>
+                          <xs:maxLength value="100"/>
                         </xs:restriction>
                       </xs:simpleType>
                     </xs:element>
-                    <xs:element name="City" type="xs:string"/>
+                    <xs:element name="City">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:minLength value="1"/>
+                          <xs:maxLength value="50"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
                     <xs:element name="State">
                       <xs:simpleType>
                         <xs:restriction base="xs:string">
                           <xs:enumeration value="AZ"/>
+                          <xs:length value="2"/>
                         </xs:restriction>
                       </xs:simpleType>
                     </xs:element>
@@ -47,7 +64,16 @@
                       </xs:simpleType>
                     </xs:element>
                   </xs:sequence>
-                  <xs:attribute name="NearestAirport" type="xs:string" use="optional"/>
+                  <xs:attribute name="NearestAirport">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:enumeration value="Sky Harbor"/>
+                        <xs:enumeration value="Phoenix Sky Harbor"/>
+                        <xs:enumeration value="Scottsdale"/>
+                        <xs:enumeration value="Tucson International"/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
@@ -56,6 +82,7 @@
                 <xs:restriction base="xs:decimal">
                   <xs:minInclusive value="0"/>
                   <xs:maxInclusive value="5"/>
+                  <xs:fractionDigits value="1"/>
                 </xs:restriction>
               </xs:simpleType>
             </xs:attribute>

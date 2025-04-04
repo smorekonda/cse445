@@ -23,7 +23,7 @@
       <Zip>85020</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.0">
+  <Hotel>
     <Name>Marriott Tucson</Name>
     <Phone>520-791-8111</Phone>
     <Address>
@@ -122,6 +122,17 @@
       <City>Mesa</City>
       <State>AZ</State>
       <Zip>85206</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Residence Inn Phoenix</Name>
+    <Phone>602-265-3232</Phone>
+    <Address>
+      <Number>8242</Number>
+      <Street>N Black Canyon Hwy</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85051</Zip>
     </Address>
   </Hotel>
 </Hotels>
